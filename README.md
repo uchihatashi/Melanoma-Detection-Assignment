@@ -56,3 +56,22 @@ NOTE:
     - Choose an appropriate optimiser and loss function for model training
     - Train the model for ~30 epochs
     - Write your findings after the model fit, see if the issues are resolved or not?
+
+
+### Conclusion:
+
+After applying all Dropout, BatchNormalization(), Augmenting data, Handling class imbalances we got this as result:
+
+**Final model accuracy:**
+
+- The final train accuracy is 0.9343
+- Validation accuracy is 0.8567
+- The test accuracy is 0.4746
+
+#### **We can still improve the accuracy, especially for test dataset, but we need more data. As of now, we have really fewer data, and even we can augment more data. Here we created only 500 images for each class; in the future, we can create more like 1.5k+.**
+
+But if we use more image, it will take more time and computation power.
+
+#### **We can still improve the accuracy, especially for test dataset, but we need more data. As of now, we have really fewer data, and even we can augment more data. Here we created only 500 images for each class; in the future, we can create more like 1.5k+.**
+
+But if we use more image, it will take more time and computation power.
